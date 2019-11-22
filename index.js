@@ -1,4 +1,4 @@
-function initializeGrid(grid, min, max, columns) {
+module.exports = function spangrid(grid, min, max, columns) {
     if (min > max) throw new Error('Max must be higher then min');
     if (max > 100) throw new Error('Max must be lower then 100');
     
@@ -6,8 +6,6 @@ function initializeGrid(grid, min, max, columns) {
     grid.style.setProperty('grid-template-columns', 'repeat(' + 100 + ', 1fr)');
 
     let items = [...grid.children];
-    console.log(items)
-    let spans = [];
     let rows = getRows(items, columns)
 
     rows.forEach(row => {
@@ -22,9 +20,6 @@ function initializeGrid(grid, min, max, columns) {
         }
         row.forEach((item, i) => {
             setSpan(rowSpan[i], item)
-            if(rowSpan[i] > 22){
-                // item.style.marginTop = '-15px'
-            }
         } )
     })
 }
@@ -50,9 +45,5 @@ function getRows(items, columns) {
 }
 
 function setSpan(span, item) {
-    console.log(item, span)
     item.style.gridColumn = `span ${span}`
 }
-
-
-initializeGrid(document.getElementById('posts'), 15,35,4)
