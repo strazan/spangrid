@@ -1,0 +1,8 @@
+{
+    "name": "@strazan/spangrid",
+    "version": "1.0.0",
+    "description": "Span grid items randomly within an interval",
+    "license": "MIT",
+    "repository": "strazan/spangrid",
+    "main": "index.js"
+}
