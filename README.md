@@ -1,6 +1,7 @@
 # Spangrid
 Span grid items randomly within an interval.
 
+<img src="https://github.com/strazan/spangrid/blob/master/docs/images/spangrid-example-01.png" width="100%"></img>
 
 ### Usage
 
