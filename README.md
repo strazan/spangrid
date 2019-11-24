@@ -41,3 +41,6 @@ const cols = 4
 
 spangrid(grid, minSpan, maxSpan, cols)
 ```
+
+
+Or download the minified library from [spangrid.org](https://www.spangrid.org) and include it in your HTML.
