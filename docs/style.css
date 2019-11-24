@@ -1,4 +1,47 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 body {
 	padding: 30px;
+	margin: auto;
 	box-sizing: border-box;
+	max-width: 1300px;
+}
+
+#title {
+	width: 30vw;
+	min-width: 350px;
+	max-width: 500px;
+	padding-bottom: 2rem;
+
+}
+
+.npm-title {
+	font-weight: 300;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+	padding: 5px;
+	background-color: #eee;
+	width: fit-content;
+}
+
+.example-title {
+	margin: 2rem 0 0 0;
+
+	color: #666;
+	font-weight: 200;
+	font-size: 1rem;
+}
+
+.example {
+	font-size: 0.9rem;
+}
+
+.git-logo{
+	padding-top: 5rem;
+	width: 30px;
+	height: 30px;
 }
