@@ -1,14 +1,14 @@
 {
     "name": "spangrid",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Span grid items randomly within an interval",
     "repository": {
         "type": "git",
         "url": "https://github.com/strazan/spangrid.git"
     },
-    "homepage": "https://example.com",
+    "homepage": "https://spangrid.org",
     "author": "Sigge Labor",
     "license": "MIT",
-    "keywords": ["grid", "span"],
+    "keywords": ["grid", "span", "spangrid"],
     "main": "src/index.js"
 }

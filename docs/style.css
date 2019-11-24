@@ -9,6 +9,7 @@ body {
 	margin: auto;
 	box-sizing: border-box;
 	max-width: 1300px;
+
 }
 
 #title {
@@ -19,21 +20,30 @@ body {
 
 }
 
-.npm-title {
+.usage {
 	font-weight: 300;
 	font-size: 1rem;
 	margin-bottom: 2rem;
-	padding: 5px;
-	background-color: #eee;
-	width: fit-content;
+}
+
+.usage a {
+	color: #00f;
+	text-decoration: none;
 }
 
 .example-title {
 	margin: 2rem 0 0 0;
-
 	color: #666;
 	font-weight: 200;
 	font-size: 1rem;
+}
+
+.npm-title {
+	font-weight: 300;
+	font-size: 1rem;
+	padding: 3px;
+	background-color: #efefef;
+	width: fit-content;
 }
 
 .example {
